@@ -1,0 +1,28 @@
+.transaction_table {
+  border: 2px solid #000000;
+  margin: 0 auto;
+  width: 720px;
+  border-collapse: collapse;
+}
+.transaction_thead {
+  border: 2px solid #000000;
+  background-color: #393838;
+  color: white;
+}
+
+.transaction_th,
+.transaction_td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 400;
+}
+.transaction_th {
+  font-size: 18px;
+  font-weight: 600;
+}
+.transaction_tr:nth-child(even) {
+  background-color: #c1bfbf;
+}

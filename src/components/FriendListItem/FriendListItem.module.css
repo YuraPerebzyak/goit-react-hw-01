@@ -1,0 +1,22 @@
+.friend_list_box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.friend_list_name {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.friend_list_status_online {
+  font-size: 16px;
+  font-weight: 400;
+  color: green;
+}
+.friend_list_status_offline {
+  font-size: 16px;
+  font-weight: 400;
+  color: red;
+}
